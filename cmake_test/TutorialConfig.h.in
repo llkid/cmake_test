@@ -1,0 +1,4 @@
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+// cmakedefine 决定使用 自定义链接库与否，这里是必要的
+#cmakedefine USE_MYMATH
