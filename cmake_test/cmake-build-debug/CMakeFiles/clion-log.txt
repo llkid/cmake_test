@@ -1,0 +1,5 @@
+/opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/shi/CLionProjects/cmake_test
+USE_MYMATH status: ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shi/CLionProjects/cmake_test/cmake-build-debug

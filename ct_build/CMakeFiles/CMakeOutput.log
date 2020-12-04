@@ -463,3 +463,57 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the log exist passed with the following output:
+Change Dir: /home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e4a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_0e4a1.dir/build.make CMakeFiles/cmTC_0e4a1.dir/build
+make[1]: Entering directory '/home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e4a1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0e4a1.dir/CheckSymbolExists.c.o   -c /home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0e4a1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e4a1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0e4a1.dir/CheckSymbolExists.c.o  -o cmTC_0e4a1  -lm 
+make[1]: Leaving directory '/home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp'
+
+
+File /home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp exist passed with the following output:
+Change Dir: /home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1651/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1651.dir/build.make CMakeFiles/cmTC_f1651.dir/build
+make[1]: Entering directory '/home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1651.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f1651.dir/CheckSymbolExists.c.o   -c /home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f1651
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1651.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f1651.dir/CheckSymbolExists.c.o  -o cmTC_f1651  -lm 
+make[1]: Leaving directory '/home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp'
+
+
+File /home/shi/CLionProjects/ct_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

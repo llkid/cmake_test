@@ -1,0 +1,99 @@
+Start testing: Dec 04 16:47 CST
+----------------------------------------------------------
+1/5 Testing: Runs
+1/5 Test: Runs
+Command: "/home/shi/CLionProjects/ct_build/Tutorial" "25"
+Directory: /home/shi/CLionProjects/ct_build
+"Runs" start time: Dec 04 16:47 CST
+Output:
+----------------------------------------------------------
+USE_MYMATH--> Second value is: 5
+Computing sqrt of 5 to be 2.23607 using log and exp
+Hello, World! 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Runs" end time: Dec 04 16:47 CST
+"Runs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: Usage
+2/5 Test: Usage
+Command: "/home/shi/CLionProjects/ct_build/Tutorial"
+Directory: /home/shi/CLionProjects/ct_build
+"Usage" start time: Dec 04 16:47 CST
+Output:
+----------------------------------------------------------
+/home/shi/CLionProjects/ct_build/Tutorial Version 1.0
+Usage: /home/shi/CLionProjects/ct_build/Tutorial number
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Usage:.*number]
+"Usage" end time: Dec 04 16:47 CST
+"Usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Comp4
+3/5 Test: Comp4
+Command: "/home/shi/CLionProjects/ct_build/Tutorial" "4"
+Directory: /home/shi/CLionProjects/ct_build
+"Comp4" start time: Dec 04 16:47 CST
+Output:
+----------------------------------------------------------
+USE_MYMATH--> Second value is: 2
+Computing sqrt of 5 to be 2.23607 using log and exp
+Hello, World! 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found. Regex=[4 is 2
+]
+"Comp4" end time: Dec 04 16:47 CST
+"Comp4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: Comp9
+4/5 Test: Comp9
+Command: "/home/shi/CLionProjects/ct_build/Tutorial" "9"
+Directory: /home/shi/CLionProjects/ct_build
+"Comp9" start time: Dec 04 16:47 CST
+Output:
+----------------------------------------------------------
+USE_MYMATH--> Second value is: 3
+Computing sqrt of 5 to be 2.23607 using log and exp
+Hello, World! 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found. Regex=[9 is 3
+]
+"Comp9" end time: Dec 04 16:47 CST
+"Comp9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Comp-9
+5/5 Test: Comp-9
+Command: "/home/shi/CLionProjects/ct_build/Tutorial" "-9"
+Directory: /home/shi/CLionProjects/ct_build
+"Comp-9" start time: Dec 04 16:47 CST
+Output:
+----------------------------------------------------------
+USE_MYMATH--> Second value is: -2147483648
+Computing sqrt of 5 to be 2.23607 using log and exp
+Hello, World! 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found. Regex=[-9 is [-nan|nan|0]
+]
+"Comp-9" end time: Dec 04 16:47 CST
+"Comp-9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 04 16:47 CST

@@ -13,6 +13,8 @@ echo "Build the project add run target execute file."
 cmake -DUSE_MYMATH=ON .
 cmake ../cmake_test/
 cmake --build .
+cmake --install .
+ctest -C Debug -VV
 
 echo
 echo "Build target success, now run the cmake demo."
@@ -21,3 +23,4 @@ echo
 echo "./Tutorial $1"
 
 ./Tutorial $1
+exit 0

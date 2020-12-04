@@ -6,11 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/shi/CLionProjects/cmake_test/MathFunctions/MathFunctions.h
-cmath
--
-
-/home/shi/CLionProjects/cmake_test/MathFunctions/mysqrt.cpp
-MathFunctions.h
-/home/shi/CLionProjects/cmake_test/MathFunctions/MathFunctions.h
-

@@ -22,7 +22,16 @@ int main(int argc, char** argv) {
     const auto outputValue = sqrt(inputValue);
     std::cout << "STD_MATH-->   Second value is: " << outputValue << '\n';
 #endif
-    std::cout << "Hello, World!" << std::endl;
+
+    double x = 5.0;
+#if defined(HAVE_LOG) && defined(HAVE_EXP)
+    double result = exp(log(x) * 0.5);
+    std::cout << "Computing sqrt of " << x << " to be " << result
+              << " using log and exp" << std::endl;
+#else
+    double result = x;
+#endif
+    std::cout << "Hello, World! " << x << std::endl;
 
     return 0;
 }

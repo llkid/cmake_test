@@ -1,0 +1,4 @@
+/home/shi/CLionProjects/cmake_test/MathFunctions/../lib/libMathFunctions.a
+/home/shi/CLionProjects/cmake_test/MathFunctions/../include/MathFunctions.h
+/home/shi/CLionProjects/cmake_test/bin/Tutorial
+/home/shi/CLionProjects/cmake_test/include/TutorialConfig.h
